@@ -1,4 +1,4 @@
-@import "Style/base/reset.css";
-@import "Style/base/variables.css";
-@import "Style/layout/GCH/home.css";
-@import "Style/layout/CRH/home.css";
+@import "base/reset.css";
+@import "base/variables.css";
+@import "layout/GCH/home.css";
+@import "layout/CRH/home.css";
