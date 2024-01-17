@@ -1,0 +1,44 @@
+.main-CRH-home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.background-seciton{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.background-seciton video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-CRH-home{
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.social-media i{
+    margin: 16px;
+}
+
+@media (max-width: 840px) {
+    .container-CRH-home img{
+        height: 128px;
+        width: auto;
+    }
+    #img-CuattroRH{
+        height: 60px;
+        width: auto;
+    }
+}

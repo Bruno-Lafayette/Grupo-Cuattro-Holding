@@ -1,0 +1,17 @@
+:root{
+    --font: 'Inter', sans-serif;
+    
+    --text-size-small: 8px;
+    --text-size-medium: 24px;
+    --text-size-large: 32px;
+    --text-size-extra-large: 64px;
+
+    --text-Weight-regular: 400;
+    --text-Weight-medium: 500;
+    --text-Weight-semi-bold: 600;
+    --text-Weight-bold: 700;
+    --text-Weight-extra-bold: 800;
+
+    --color-blue: #00558C;
+    --color-red: #B21A29;
+}
