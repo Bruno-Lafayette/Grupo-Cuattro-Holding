@@ -56,7 +56,7 @@
 }
 
 #container_services_VRH{
-    background-image: url("/Images/escritorio_vertti_recursos_humanos.jpg");
+    background-image: url("../../../Images/escritorio_vertti_recursos_humanos.jpg");
     background-repeat: no-repeat;
     background-color: var(--color-gray);
     display: flex;
@@ -106,7 +106,7 @@
 #container_know_our_plans::before{
     content: "";
     inset: 0;
-    background-image: url("/Images/Recursos_humanos_vertti.png");
+    background-image: url("../../../Images/Recursos_humanos_vertti.png");
     background-size: cover;
     position: absolute;
     opacity: 0.3;
@@ -135,7 +135,7 @@
 
 #container_how_can_help_you{
     padding-left: 50%;
-    background-image: url("/Images/atendimento_grupo_cuattro.png");
+    background-image: url("../../../Images/atendimento_grupo_cuattro.png");
     background-size: cover;
     height: 500px;
 }
@@ -204,7 +204,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/Images/copyright_grupo_cuattro.png');
+    background-image: url('../../../Images/copyright_grupo_cuattro.png');
     background-size: cover;
     color: white;
 }

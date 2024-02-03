@@ -49,7 +49,13 @@ nav a{
     background-color: var(--color-red);
     color: white;
     border-radius: 25px;
-    width: 128px;
+    font-size: small;
+    width: 112px;
 }
 
-
+nav a:hover{
+    text-decoration: none;
+    color: var(--color-red);
+    font-weight: var(--text-Weight-extra-bold);
+    transition: 200ms linear;
+}
