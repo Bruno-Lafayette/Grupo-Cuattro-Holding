@@ -1,0 +1,7 @@
+#banner_home_VRH{
+    height: 100%;
+    background-image: url("../../Images/banner_home_VRH.png");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}

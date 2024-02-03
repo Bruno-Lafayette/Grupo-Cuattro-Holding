@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 16px;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    background-color: white;
+}
+
+nav ul li{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    margin: 8px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--color-blue);
+    font-size: var(--text-size-medium);
+    font-weight: var(--text-Weight-medium);
+}
+
+#option_active a{
+    color: var(--color-red);
+    font-weight: var(--text-Weight-bold);
+    font-size: var(--text-size-medium);
+}
+
+#nav_logo_GCH{
+    height: 32px;
+}
+
+#nav_contract_btn{
+    background-color: var(--color-red);
+    color: white;
+    border-radius: 25px;
+    width: 128px;
+}
+
+

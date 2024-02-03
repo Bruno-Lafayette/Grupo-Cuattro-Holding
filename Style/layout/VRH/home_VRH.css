@@ -1,0 +1,218 @@
+#container_title_banner_home_VRH{
+    width: 50%;
+    height: 340px;
+    padding: 36% 8% 0% 8%;
+}
+
+#container_title_banner_home_VRH h1{
+    font-weight: var(--text-Weight-extra-bold);
+    font-size: var(--text-size-large);
+    line-height: 1.2;
+}
+
+#container_title_banner_home_VRH p{
+    font-weight: var(--text-Weight-semi-bold);
+    font-size: 16px;
+    color: gray;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+#container_about_VRH{
+    background-color: rgb(242, 242, 242);
+}
+
+#container_about_VRH h2{
+    padding-top: 64px;
+    font-weight: var(--text-Weight-bold);
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    color: var(--color-blue);
+}
+
+.container_text_about_VRH{
+    display: flex;
+    align-items: center;
+    margin: 64px 0px 0px 64px;
+    padding-bottom: 64px;
+}
+
+.container_text_about_VRH img{
+    height: 500px;
+    width: auto;
+}
+
+.container_text_about_VRH p{
+    font-size: 22px;
+    margin: 32px;
+    font-weight: var(--text-Weight-bold);
+    line-height: 1.6;
+    color: var(--color-blue);
+}
+
+.color_red{
+    color: var(--color-red);
+}
+
+#container_services_VRH{
+    background-image: url("/Images/escritorio_vertti_recursos_humanos.jpg");
+    background-repeat: no-repeat;
+    background-color: var(--color-gray);
+    display: flex;
+    justify-content: center;    
+}
+
+#container_services_inf_VRH{
+    background-color: white;
+    padding: 64px;
+    display: flex;
+    width: 60%;
+    margin-top: 400px;
+    margin-bottom: 64px;
+}
+
+#container_services_inf_VRH h2{
+    color: var(--color-red);
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+#container_services_inf_VRH p{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#container_services_inf_VRH li{
+    line-height: 2.6;
+}
+
+#container_services_inf_VRH img{
+    height: 300px;
+    font-size: 24px;
+}
+
+#container_know_our_plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    height: 540px;
+}
+
+#container_know_our_plans::before{
+    content: "";
+    inset: 0;
+    background-image: url("/Images/Recursos_humanos_vertti.png");
+    background-size: cover;
+    position: absolute;
+    opacity: 0.3;
+    inset: 0;
+}
+
+#container_know_our_plans h2{
+    font-size: xx-large;
+    font-weight: var(--text-Weight-extra-bold);
+    padding: 64px;
+    color: var(--color-blue);
+    line-height: 1.6;
+    z-index: 10;
+    text-align: center;
+}
+
+#container_know_our_plans a{
+    background-color: var(--color-red);
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    z-index: 10;
+    border-radius: 16px;
+    font-weight: 700;
+}
+
+#container_how_can_help_you{
+    padding-left: 50%;
+    background-image: url("/Images/atendimento_grupo_cuattro.png");
+    background-size: cover;
+    height: 500px;
+}
+
+#container_how_can_help_you h2{
+    padding-top: 20%;
+    color: var(--color-blue);
+    font-weight: var(--text-Weight-bold);
+    font-size: var(--text-size-large);
+}
+
+#container_how_can_help_you p{
+    margin-top: 16px;
+    padding-right: 16%;
+    line-height: 1.6;
+    color: var(--color-blue);
+    padding-bottom: 16px;
+}
+
+#container_how_can_help_you a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-red);
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    width: 200px;
+    z-index: 10;
+    border-radius: 16px;
+    font-weight: 700;
+}
+
+#container_map_site{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 64px;
+    width: 100%;
+    background: linear-gradient(0.25turn, #ffffff, #C6C4C4);
+}
+
+#container_map_site img{
+    height: 180px;
+}
+
+#container_map_site div p{
+    color: #797979;
+    line-height: 1.6;
+}
+
+#container_map_site div h2{
+    font-size: larger;
+    color: #797979;
+    margin: 16px 0;
+}
+
+#container_map_site div li a{
+    font-size: small;
+    text-decoration: none;
+    color: #797979;
+    line-height: 1.5;
+}
+
+#container_copy_right{
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Images/copyright_grupo_cuattro.png');
+    background-size: cover;
+    color: white;
+}
+
+#container_link_options{
+    display: flex;
+}
+
+#container_link_options div{
+    margin-right: 32px;
+}

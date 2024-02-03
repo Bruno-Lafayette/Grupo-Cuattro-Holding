@@ -1,4 +1,9 @@
 @import "base/reset.css";
 @import "base/variables.css";
+@import "base/thypography.css";
 @import "layout/GCH/home.css";
 @import "layout/CRH/home.css";
+@import "layout/background.css";
+@import "layout/nav.css";
+@import "layout/VRH/home_VRH.css"
+

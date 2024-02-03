@@ -1,8 +1,9 @@
 :root{
     --font: 'Inter', sans-serif;
     
+    --text-size-very-small: 4px;
     --text-size-small: 8px;
-    --text-size-medium: 24px;
+    --text-size-medium: 12px;
     --text-size-large: 32px;
     --text-size-extra-large: 64px;
 
@@ -14,4 +15,5 @@
 
     --color-blue: #00558C;
     --color-red: #B21A29;
+    --color-gray: rgb(242, 242, 242);
 }
