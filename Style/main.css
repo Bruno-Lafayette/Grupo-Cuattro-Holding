@@ -1,7 +1,8 @@
 @import "base/reset.css";
 @import "base/variables.css";
 @import "base/thypography.css";
-@import "layout/GCH/home.css";
+@import "layout/GCH/home_GCH.css";
+@import "layout/GCH/landing_page.css";
 @import "layout/CRH/home.css";
 @import "layout/background.css";
 @import "layout/nav.css";

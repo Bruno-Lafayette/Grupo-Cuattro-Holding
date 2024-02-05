@@ -1,0 +1,113 @@
+#container_home_GCH{
+    background-image: url("../../../Images/background_grupo_cuattro.png");
+    background-size: cover;
+    height: 900px;
+}
+
+#container_transparent_box_home_GCH{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 60%;
+    background: linear-gradient(#085388 , rgba(255, 255, 255, 0));
+}
+
+#container_home_GCH h1{
+    padding-top: 10%;
+    text-transform: uppercase;
+    color: white;
+    font-weight: var(--text-Weight-extra-bold);
+    text-shadow: 2px 2px 2px #5b5b5b;
+    font-size: 40px;
+}
+
+#container_home_GCH h2{
+    margin-top: 8px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: var(--text-Weight-small);
+    text-shadow: 2px 2px 2px #5b5b5b;
+    font-size: var( --text-size-large);
+}
+
+#container_home_GCH p{
+    line-height: 1.6;
+    width: 32%;
+    margin-top: 32px;
+    color: white;
+    font-weight: var(--text-Weight-bold);
+    font-size: 16px;
+}
+
+#container_about_GCH{
+    width: 100%;
+}
+
+#container_about_GCH h2{
+    padding: 80px 400px;
+    color: var(--color-blue);
+    line-height: 1.2;
+    text-align: center;
+    font-size: 24px;
+    font-weight: var(--text-Weight-bold);
+}
+
+.container_display_flex_GCH{
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.container_display_flex_GCH h3{
+    color: var(--color-blue);
+    font-size: 24px;
+    font-weight: var(--text-Weight-bold);
+    padding-bottom: 16px;
+    margin-left: 64px;
+}
+
+.container_display_flex_GCH p{
+    color: var(--color-blue);
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: var(--text-Weight-bold);
+    padding-bottom: 16px;
+    margin-left: 64px;
+    margin-right: 64px;
+
+}
+
+.container_blue_box h3{
+    margin-left: 64px;
+    font-size: var(--text-size-x-medium);
+    font-weight: var(--text-Weight-bold);
+}
+
+.container_blue_box p{
+    margin-top: 8px;
+    margin-left: 64px;
+    font-size: var(--text-size-large);
+    font-weight: var(--text-Weight-extra-bold);
+    width: 40%;
+    line-height: 1.2;    
+}
+
+.container_blue_box{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2b5e7aca;
+    height: 400px;
+    width: 100%;
+}
+
+#container_our_values{
+    margin-top: 16%;
+    width: 100%;
+    height: 400px;
+    background-image: url("../../../Images/conquista_grupo_cuattro.png");
+    background-size: cover;
+    background-position: center;
+}
